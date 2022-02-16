@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Jugadores del videojuego FIFA 2021</title>
+  <meta name="description" content="Jugadores del videojuego FIFA 2021" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Jugadores del videojuego FIFA 2021" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Jugadores del videojuego FIFA 2021" />
+  
+  
+  
+
+<meta name="author" content="Brandon Alejandro Mosqueda González" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="descripción-de-variables.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/tabwid-1.0.0/tabwid.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="sobre-el-conjunto-de-datos.html"><a href="sobre-el-conjunto-de-datos.html"><i class="fa fa-check"></i><b>1</b> Sobre el conjunto de datos</a></li>
+<li class="chapter" data-level="2" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html"><i class="fa fa-check"></i><b>2</b> Descripción de variables</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#edad"><i class="fa fa-check"></i><b>2.1</b> Edad</a></li>
+<li class="chapter" data-level="2.2" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#desempeño-global"><i class="fa fa-check"></i><b>2.2</b> Desempeño global</a></li>
+<li class="chapter" data-level="2.3" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#precisión-de-tiro"><i class="fa fa-check"></i><b>2.3</b> Precisión de tiro</a></li>
+<li class="chapter" data-level="2.4" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#salario"><i class="fa fa-check"></i><b>2.4</b> Salario</a></li>
+<li class="chapter" data-level="2.5" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#valor"><i class="fa fa-check"></i><b>2.5</b> Valor</a></li>
+<li class="chapter" data-level="2.6" data-path="descripción-de-variables.html"><a href="descripción-de-variables.html#pierna-preferida"><i class="fa fa-check"></i><b>2.6</b> Pierna preferida</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Jugadores del videojuego FIFA 2021</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Jugadores del videojuego FIFA 2021</h1>
+<h2 class="subtitle"><em>Exploración de datos</em></h2>
+<p class="author"><em>Brandon Alejandro Mosqueda González</em></p>
+<p class="date" style="margin-top: 1.5em;"><em>16/02/2022</em></p>
+</div>
+<div id="sobre-el-conjunto-de-datos" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Sobre el conjunto de datos</h1>
+<p>Este conjunto de datos contiene todos los jugadores de fútbol incluidos en el videojuego FIFA 2021, siendo un total de 18,944 jugadoers, de los cuales se tienen las siguientes 25 variables:</p>
+<template id="4f4b6f20-b78a-4541-bbba-cfbab1ffe947"><style>
+.tabwid table{
+  border-spacing:0px !important;
+  border-collapse:collapse;
+  line-height:1;
+  margin-left:auto;
+  margin-right:auto;
+  border-width: 0;
+  display: table;
+  margin-top: 1.275em;
+  margin-bottom: 1.275em;
+  border-color: transparent;
+}
+.tabwid_left table{
+  margin-left:0;
+}
+.tabwid_right table{
+  margin-right:0;
+}
+.tabwid td {
+    padding: 0;
+}
+.tabwid a {
+  text-decoration: none;
+}
+.tabwid thead {
+    background-color: transparent;
+}
+.tabwid tfoot {
+    background-color: transparent;
+}
+.tabwid table tr {
+background-color: transparent;
+}
+</style><div class="tabwid"><style>.cl-2c813808{}.cl-2c71a604{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-2c71d8cc{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-2c7248ac{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248c0{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248ca{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248d4{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248d5{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248de{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248df{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248e8{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248e9{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248fc{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c7248fd{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724906{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724907{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724910{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724911{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c72491a{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c72491b{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724924{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724925{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c72492e{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c72492f{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724938{width:198.7pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c724939{width:113.2pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-2c72493a{width:155.8pt;background-color:transparent;vertical-align: middle;border-bottom: 2pt solid rgba(102, 102, 102, 1.00);border-top: 2pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table class='cl-2c813808'>
+<thead><tr style="overflow-wrap:break-word;"><td class="cl-2c72493a"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Variable</span></p></td><td class="cl-2c724939"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Tipo de dato</span></p></td><td class="cl-2c724938"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Descripción</span></p></td></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-2c7248ca"><p class="cl-2c71d8cc"><span class="cl-2c71a604">name</span></p></td><td class="cl-2c7248c0"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Texto</span></p></td><td class="cl-2c7248ac"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Nombre</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248e9"><p class="cl-2c71d8cc"><span class="cl-2c71a604">age</span></p></td><td class="cl-2c7248e8"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248df"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Edad</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">height_cm</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Altura en centímetros</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">weight_kg</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Peso en kilogramos</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">nationality</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Categórico (162)</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Nacionalidad</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c72492f"><p class="cl-2c71d8cc"><span class="cl-2c71a604">overall</span></p></td><td class="cl-2c72492e"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724925"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Valor de desempeño global</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724906"><p class="cl-2c71d8cc"><span class="cl-2c71a604">potential</span></p></td><td class="cl-2c7248fd"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248fc"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Potencial de mejora</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">value_eur</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Valor en el mercado en euros</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248e9"><p class="cl-2c71d8cc"><span class="cl-2c71a604">wage_eur</span></p></td><td class="cl-2c7248e8"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248df"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Salario en euros</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">preferred_foot</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Categórico (2)</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Pie preferido</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">team_position</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Categórico (30)</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Posición de juego</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">team_jersey_number</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Número que usa en su camiseta</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248e9"><p class="cl-2c71d8cc"><span class="cl-2c71a604">pace</span></p></td><td class="cl-2c7248e8"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248df"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Ritmo</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724906"><p class="cl-2c71d8cc"><span class="cl-2c71a604">shooting</span></p></td><td class="cl-2c7248fd"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248fc"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Precisión de tiro</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">passing</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Precisión de pase</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c7248de"><p class="cl-2c71d8cc"><span class="cl-2c71a604">dribbling</span></p></td><td class="cl-2c7248d5"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248d4"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Precisión de regate</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724906"><p class="cl-2c71d8cc"><span class="cl-2c71a604">defending</span></p></td><td class="cl-2c7248fd"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248fc"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Precisión defendiendo</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724906"><p class="cl-2c71d8cc"><span class="cl-2c71a604">physic</span></p></td><td class="cl-2c7248fd"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c7248fc"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Físico</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">movement_acceleration</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Aceleración</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">movement_sprint_speed</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Velocidad</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">movement_agility</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Agilidad</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">power_shot_power</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Potencia de tiro</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">power_jumping</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Potencia de salto</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c724911"><p class="cl-2c71d8cc"><span class="cl-2c71a604">power_stamina</span></p></td><td class="cl-2c724910"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724907"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Aguante</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-2c72491a"><p class="cl-2c71d8cc"><span class="cl-2c71a604">power_strength</span></p></td><td class="cl-2c72491b"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Numérico</span></p></td><td class="cl-2c724924"><p class="cl-2c71d8cc"><span class="cl-2c71a604">Fuerza</span></p></td></tr></tbody></table></div></template>
+<div class="flextable-shadow-host" id="b547c4b0-6a8a-4b43-81c8-4158992a3b4c"></div>
+<script>
+var dest = document.getElementById("b547c4b0-6a8a-4b43-81c8-4158992a3b4c");
+var template = document.getElementById("4f4b6f20-b78a-4541-bbba-cfbab1ffe947");
+var caption = template.content.querySelector("caption");
+if(caption) {
+  caption.style.cssText = "display:block;text-align:center;";
+  var newcapt = document.createElement("p");
+  newcapt.appendChild(caption)
+  dest.parentNode.insertBefore(newcapt, dest.previousSibling);
+}
+var fantome = dest.attachShadow({mode: 'open'});
+var templateContent = template.content;
+fantome.appendChild(templateContent);
+</script>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="descripción-de-variables.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": false
+});
+});
+</script>
+
+</body>
+
+</html>
